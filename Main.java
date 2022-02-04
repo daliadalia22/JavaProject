@@ -22,6 +22,16 @@ public class Main {
 
     System.out.println ("variable = "+ is_happy);
 
+    int num_5 = 1, num_9 = 89, sum, min, mult, dev;
+    sum = num_5 + num_9;
+    System.out.println (sum);
+
+        min = num_9 - num_5;
+        System.out.println (min);
+        mult = num_9 * num_5;
+        System.out.println (mult);
+        dev = num_9 / num_5;
+        System.out.println (dev);
 
     }
 }
