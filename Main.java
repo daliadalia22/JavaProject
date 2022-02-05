@@ -54,8 +54,53 @@ public class Main {
         long xl = 1;
         System.out.println(xl++); // => 6
         System.out.println(xl);
-        int yl = 2;
+        long yl = 2;
         System.out.println(yl--); // => 6
         System.out.println(yl);
+        {
+            int i3 = 17;
+            double d = 17.3;
+
+            System.out.println("i mod 10 = " + i3 % 10);
+            System.out.println("d mod 10 = " + d % 10);
+
+            float numf1 = 1.5f, numf2 = 8.9f, sumf, minf, multf, devf;
+            sumf = numf1 + numf2;
+            System.out.println (sumf);
+
+            minf = numf1 - numf2;
+            System.out.println (minf);
+            multf = numf1 * numf2;
+            System.out.println (multf);
+            devf = numf1 / numf2;
+            System.out.println (devf);
+
+            float xf = 1.4f;
+            System.out.println(xf++); // => 6
+            System.out.println(xf);
+            float yf = 2.2f;
+            System.out.println(yf--); // => 6
+            System.out.println(yf);
+
+            double numfd = 1.5f, numfd2 = 8.9f, sumfd, minfd, multfd, devfd;
+            sumfd = numfd + numfd2;
+            System.out.println (sumfd);
+
+            minfd = numfd - numfd2;
+            System.out.println (minf);
+            multfd = numfd * numfd2;
+            System.out.println (multfd);
+            devfd= numfd / numfd2;
+            System.out.println (devfd);
+
+            double xfd = 1.5f;
+            System.out.println(xfd++); // => 6
+            System.out.println(xfd);
+            double yfd = 2.5f;
+            System.out.println(yfd--); // => 6
+            System.out.println(yfd);
+
+
+        }
     }
 }
