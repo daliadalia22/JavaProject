@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 	byte num = 2;
+	    
+	// с 9 по 29 строки не хватает одного таба перед началом строки
     System.out.println ("variable = "+ num);
     int i = 238888;
     System.out.println ("variable = "+ i);
@@ -57,6 +59,8 @@ public class Main {
         long yl = 2;
         System.out.println(yl--); // => 6
         System.out.println(yl);
+	    
+	    // зачем здесь "{" ? Это лишнее
         {
             int i3 = 17;
             double d = 17.3;
@@ -103,4 +107,6 @@ public class Main {
 
         }
     }
+	
+	// в целом все хорошо
 }
