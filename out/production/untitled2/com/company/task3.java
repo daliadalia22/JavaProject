@@ -1,5 +1,6 @@
 package week2;
 
+// те же ошибки что и в пердыдущей задаче
 public class task3 {
     String[] names = {"John", "Bob", "Mary", "Peter", "Sara"};
     int length;
