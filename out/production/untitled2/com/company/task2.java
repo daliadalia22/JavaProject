@@ -1,4 +1,8 @@
 package week2;
+
+//1. Классы в Java должны называться с большой буквы (task2 -> Task2)
+//2. Код нерабочий. Неправильно используешь длину строк "length(names[i]) < 4" --> "names[i].length()"
+// строки 10 и 11 необязательны, можно использовать такую запись цикла: for (int i = 0; i < names.length; i++)
 public class task2
 {
     public static void main(String[]  args) {
