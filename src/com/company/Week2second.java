@@ -1,5 +1,5 @@
 package com.company;
-public class Task2 {
+public class Week2second {
     public static void main(String[] args) {
         String[] names = {"John", "Bob", "Mary", "Peter", "Sara"};
         int length = names.length;
