@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Week2first {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int mark = sc.nextInt();
