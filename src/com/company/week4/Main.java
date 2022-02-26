@@ -7,7 +7,7 @@ public class Main {
         String symbols;
         symbols = str.next();
          String[] city  = {"NewYor", "Baghdad", "Moscow"};
-        int num = str.nextInt();
+        int num = Integer.parseInt(str.nextLine());
         int i = 0;
         for (i = 0; i < 2; i++) {
        System.out.println("Ваш город" + city[i]);}
