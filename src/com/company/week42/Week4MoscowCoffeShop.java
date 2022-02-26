@@ -1,4 +1,4 @@
-package com.company.week22;
+package com.company.week42;
 public class Week4MoscowCoffeShop {
     int city;
     public int Latte;
