@@ -1,9 +1,8 @@
 package com.company.week4;
 import java.util.Scanner;
 
-import static com.company.week4.BaghdadCoffeeShop.latte;
-
 public class Main {
+    public static String Baghdad;
     public static void main(String[] args) {
         System.out.println("Из какого Вы города? Baghdad - 1, NewYork - 2, Moscow -3" );
         Scanner sc = new Scanner(System.in);
@@ -13,56 +12,58 @@ public class Main {
         int coffee = sc.nextInt();
         if (city == 1)  {
          BaghdadCoffeeShop BaghdadCoffee = new BaghdadCoffeeShop();
-                if (coffee == 1)   {
-                    BaghdadCoffeeShop.waiting();
-                    BaghdadCoffeeShop.latte();  }
+             CoffeeShop.town = "Baghdad";
+             if (coffee == 1)   {
+                    CoffeeShop.waiting();
+                    CoffeeShop.latte();  }
               else if (coffee == 2){
-                BaghdadCoffeeShop.waiting();
-                BaghdadCoffeeShop.espresso(); }
+                CoffeeShop.waiting();
+                CoffeeShop.espresso(); }
               else if (coffee == 3){
-                BaghdadCoffeeShop.waiting();
-                BaghdadCoffeeShop.cappuchino();
+                CoffeeShop.waiting();
+                CoffeeShop.cappuchino();
             }
               else if (coffee == 4){
-                BaghdadCoffeeShop.waiting();
-                BaghdadCoffeeShop.coffee_with_milk();
+                CoffeeShop.waiting();
+                CoffeeShop.coffee_with_milk();
             }
               else {System.out.println("Ошибка");}
-        } else if (city == 2) {
-            System.out.println("NewYork");
-            {NewYorkCoffeeShop NewYorkCoffee = new NewYorkCoffeeShop();
+        } else if  (city == 2) {
+            NewYorkCoffeeShop NewYorkCoffee = new NewYorkCoffeeShop();
+            CoffeeShop.town = "New York";
                 if (coffee == 1)   {
-                    NewYorkCoffeeShop.waiting();
-                    NewYorkCoffeeShop.latte();  }
+                    CoffeeShop.waiting();
+                    CoffeeShop.latte();  }
                 else if (coffee == 2){
-                    NewYorkCoffeeShop.waiting();
-                    NewYorkCoffeeShop.espresso(); }
+                    CoffeeShop.waiting();
+                    CoffeeShop.espresso(); }
                 else if (coffee == 3){
-                    NewYorkCoffeeShop.waiting();
-                    NewYorkCoffeeShop.cappuchino();
+                    CoffeeShop.waiting();
+                    CoffeeShop.cappuchino();
                 }
                 else if (coffee == 4){
-                    NewYorkCoffeeShop.waiting();
-                    NewYorkCoffeeShop.coffee_with_milk();
+                   CoffeeShop.waiting();
+                   CoffeeShop.coffee_with_milk();
                 }
                 else {System.out.println("Ошибка");
 
-                }}}
+                }}
         else if (city == 3) {
-            MoscowCoffeeShop MoscowCoffee = new MoscowCoffeeShop();
+        MoscowCoffeeShop MoscowCoffee = new MoscowCoffeeShop();
+        CoffeeShop.town = "Moscow";
             if (coffee == 1)   {
-                MoscowCoffeeShop.waiting();
-                MoscowCoffeeShop.latte();  }
+                CoffeeShop.waiting();
+               CoffeeShop.latte();  }
             else if (coffee == 2){
-               MoscowCoffeeShop.waiting();
-                MoscowCoffeeShop.espresso(); }
+               CoffeeShop.waiting();
+                CoffeeShop.espresso(); }
             else if (coffee == 3){
-                MoscowCoffeeShop.waiting();
-                MoscowCoffeeShop.cappuchino();
+                CoffeeShop.waiting();
+                CoffeeShop.cappuchino();
             }
             else if (coffee == 4){
-                MoscowCoffeeShop.waiting();
-                MoscowCoffeeShop.coffee_with_milk();
+                CoffeeShop.waiting();
+                CoffeeShop.coffee_with_milk();
             }
             else {System.out.println("Ошибка");
             }
