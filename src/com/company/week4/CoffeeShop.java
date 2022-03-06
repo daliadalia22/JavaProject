@@ -30,6 +30,7 @@ public abstract class CoffeeShop {
          Biscuits.sellBiscuits();
      }
     
+    // если название метода состоит из нескольких слов, то нужно использовать camelCase: coffee_with_milk -> coffeeWithMilk
      static void coffee_with_milk() {
          waiting();
          System.out.println("Thanks for order in " + " "+ town + " " + ", take your coffee with milk please");
