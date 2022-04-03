@@ -30,7 +30,10 @@ public class User {
     public void setLast (String Last_name) {
         this.Last_name = Last_name;
     }
-
+    public String getEmail () { return email;}
+    public void getEmail (String email) { this.email = email;}
+    public String getPassword () {return password;}
+    public void getPassword (String password) {this.password = password;}
     private class list<T> {
     }
 }
