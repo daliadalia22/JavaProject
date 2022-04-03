@@ -2,7 +2,7 @@ package week7;
 
 import java.util.Date;
 
-public class User {
+public class User implements Serializable{
     static String password;
     public static String email;
     private String First_name;
