@@ -8,7 +8,9 @@ public class BankMenu {
     public BankMenu(Bank bank) {
         this.bank = bank;
     }
+    public void showBankMenu() {
 
+    }
     public void showStartMenu() {
         System.out.println("Для того, чтобы войти - нажмите 1, для того, чтобы зарегистрироваться - нажмите 2");
         Scanner sc = new Scanner(System.in);
