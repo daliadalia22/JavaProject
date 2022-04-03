@@ -1,5 +1,5 @@
 package com.company.week4;
 
-public class BaghdadCoffeeShop {
+public class BaghdadCoffeeShop extends CoffeeShop{
 }
 
