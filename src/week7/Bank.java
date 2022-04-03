@@ -1,7 +1,7 @@
 package week7;
 
 public class Bank {
-    private User[] users;
+    public User[] users;
     public void serializeUsers() {
 
     }
@@ -26,5 +26,9 @@ public void doRegister() {
     }
 
     public void doLogin() {
+    }
+
+    public void setUsers(User[] users) {
+        this.users = users;
     }
 }
