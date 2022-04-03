@@ -22,7 +22,9 @@ public class Bank {
         }
         return true;
       }
-public void doRegister(User user) {
+public void doRegister() {
     }
-    
+
+    public void doLogin() {
+    }
 }
