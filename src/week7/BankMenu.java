@@ -16,6 +16,8 @@ public class BankMenu {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         if (number == 1)
+            
+            //здесь ты почему-то вызываешь doLogin еще до того как спросила емейл и пароль
         {bank.doLogin();
 
             System.out.println("Введите, пожалуйста, Ваш адрес электронной почты и пароль");
@@ -27,6 +29,7 @@ public class BankMenu {
                 return;
             }
 
+                //все поля в классе User не должны быть статическими, доступ к ним должен быть через геттеры/сеттеры
             if (User.password == null) {
                 message = "no password set";
                 return;
@@ -49,6 +52,7 @@ public class BankMenu {
             }
             return;
         }
+            //тут ты вызываешь метод регистрации не спросив у пользователя никакой информации о нём. Вернись к условиям задачи
             else if (number == 2)
             bank.doRegister();
         {
