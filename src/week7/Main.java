@@ -6,6 +6,8 @@ public static void main(String[] args) {
     Bank m = new Bank();
     String password;
     m.start();
+    
+    // в методе main не должно быть всего что написано ниже. Этот функционал будет на следующей неделе и будет располагаться в другом классе
     System.out.println("Для того, чтобы войти - нажмите 1, для того, чтобы зарегистрироваться - нажмите 2");
     Scanner sc = new Scanner(System.in);
     int number = sc.nextInt();

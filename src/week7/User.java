@@ -9,6 +9,8 @@ public class User {
     private String Last_name;
     private Date Birthday;
     private boolean Gender;
+    
+    //Ссылочные типы указываются с большой буквы (List), так же как и String. С маленькой - только примитивные типы
     private list <Loan> Loan;
     private list <DebitCard> card;
 

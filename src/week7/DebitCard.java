@@ -4,6 +4,8 @@ import java.util.Date;
 
 public class DebitCard {
      private double balance;
+     
+     //Если название переменной состоит из 2 или более слов то называться переменная должна camelCase'ом
      private String card_number;
      private Date date;
      private int cvv;
