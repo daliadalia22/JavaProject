@@ -34,6 +34,13 @@ public class User implements Serializable{
     public void getEmail (String email) { this.email = email;}
     public String getPassword () {return password;}
     public void getPassword (String password) {this.password = password;}
+
+    public void ApproveCreditToUser(week7.Loan loan) {
+    }
+
+    public void ApproveCreditToUser(DebitCard debitCard) {
+    }
+
     private class list<T> {
     }
 }

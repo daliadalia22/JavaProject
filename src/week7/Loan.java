@@ -7,6 +7,10 @@ public class Loan {
     Double percent;
     Integer duration;
     Double monthlyPayment;
+
+    public Loan(String date, Double sum, Double interestRate, int months, double monthlyPayment) {
+    }
+
     public String toString() {
         return ("Issue Date: " + issueDate + "/m Sum:" + sum + "/m Percent" + percent + "/m duration" + duration +
                 "/m monthlyPayment" + monthlyPayment);

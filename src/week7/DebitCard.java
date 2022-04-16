@@ -9,7 +9,10 @@ public class DebitCard {
      private String card_number;
      private Date date;
      private int cvv;
-     public String toString() {
+    public DebitCard(Double balance, Double cardNumber, String endDate, int cvv) {
+    }
+
+    public String toString() {
          return ("Current Balance: " + balance + "/m Card Number:" + card_number + "/m End Date" + date + "/m CVV" + cvv);
      }
      public double getBalance () {
@@ -30,4 +33,7 @@ public class DebitCard {
      public void setExpDate (Date date) {
          this.date = date;
      }
+    private void addDebitCard() {
+    }
 }
+
